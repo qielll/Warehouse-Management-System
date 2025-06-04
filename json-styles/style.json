@@ -1,0 +1,115 @@
+{
+  "ShowLogs": true,
+  "LiveCompileQss": true,
+  "QMainWindow": [
+    {
+      "title": "WarehouseManagement"
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#3454CF",
+              "Text-color": "#000",
+              "Accent-color": "#808CBC",
+              "Icons-color": "#FFFFFF",
+              "Theme-name": "My-Theme",
+              "Default-Theme": false
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "WarehouseManagement",
+        "ApplicationName": "WarehouseManagement Company",
+        "OrginizationDormain": "WarehouseManagement.org"
+      }
+    }
+  ],
+  "QtBinding": "PySide6",
+  "QPushButtonGroup": [
+    {
+      "Buttons": ["btnItems", "btnStorage", "btnInbound", "btnOutbound", "btnAudit"],
+      "ActiveButton": "btnItems",
+      "Style": [
+        {
+          "Active": "border: 2px solid #fff; border-radius: 4px;",
+          "NotActive": "background-color: transparent; border: none;"
+        }
+      ]
+    }
+  ],
+
+  "QCustomSlideMenu": [
+    {
+      "name": "sideNav",
+      "defaultSize": [
+        {
+          "width": 231,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 231,
+          "height": "parent"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "btnLogo_3",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/feather/icons/feather/chevron-right.png",
+              "whenMenuIsExpanded": ":/font_awesome_solid/icons/font_awesome/solid/warehouse.png"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 1000,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    }
+  ],
+
+  "QCustomQStackedWidget": [
+    {
+      "name": "mainPages",
+      "transitionAnimation": [
+        {
+          "fade": [
+            {
+              "active": true,
+              "easingCurve": "Linear"
+            }
+          ]
+        }
+      ],
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "btnItems": "itemsPage",
+              "btnStorage": "storagePage",
+              "btnInbound": "inboundPage",
+              "btnOutbound": "outboundPage",
+              "btnAudit": "auditPage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

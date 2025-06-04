@@ -1,0 +1,51 @@
+//===================================================//
+// FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE.
+// THESE STYLES WILL OVERIDE THE THEME STYLES
+//====================================================//
+* {
+  border: none;
+  background-color: transparent;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+#centralwidget {
+  background-color: #fff;
+}
+
+#nav {
+  background-color: #3454cf;
+}
+
+#logo,
+#logoText_3 {
+  color: #fff;
+}
+
+#labelDashboard,
+#labelItems,
+#labelStorage,
+#labelInbound,
+#labelOutbound {
+  color: #000;
+}
+
+QComboBox QAbstractItemView {
+  background-color: white;
+  color: black;
+}
+
+QComboBox QAbstractItemView::item {
+  background-color: white;
+  color: black;
+}
+
+QComboBox QAbstractItemView::item:selected {
+  background-color: #d0d0d0;
+  color: black;
+}
+
+//===================================================//
+// END //
+//====================================================//

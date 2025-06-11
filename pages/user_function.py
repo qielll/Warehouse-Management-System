@@ -131,7 +131,7 @@ class UserFunction(ABC):
             self.ui.roleWidget.setCurrentWidget(self.ui.loginPage)
 
     @abstractmethod
-    def handleAuth(self, role):
+    def handleAuth():
         pass
 
    

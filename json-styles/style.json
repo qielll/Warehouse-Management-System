@@ -29,7 +29,7 @@
       }
     }
   ],
-  "QtBinding": "PySide6",
+  "QtBinding": "PyQt5",
   "QPushButtonGroup": [
     {
       "Buttons": ["btnItems", "btnStorage", "btnInbound", "btnOutbound", "btnAudit"],
